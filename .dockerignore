@@ -1,0 +1,16 @@
+.venv
+__pycache__
+.pytest_cache
+.git
+.env
+.env.*
+!.env.example
+data/raw
+artifacts
+reports
+*.pyc
+
+.pytest_cache
+.ruff_cache
+notebooks/.ipynb_checkpoints
+reports

@@ -1,0 +1,14 @@
+services:
+  phishguard:
+    build: .
+    container_name: phishguard-ai
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - ./data/raw:/app/data/raw:ro
+      - ./artifacts:/app/artifacts
+    environment:
+      PHISHGUARD_ARTIFACT_DIR: /app/artifacts
+      PHISHGUARD_MAX_BATCH_ROWS: "5000"
+      PHISHGUARD_MAX_UPLOAD_MB: "70"
+    restart: unless-stopped

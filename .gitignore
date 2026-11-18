@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Raw/private datasets and generated artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+artifacts/*
+!artifacts/.gitkeep
+reports/metrics/*
+!reports/metrics/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Streamlit/runtime
+.streamlit/cache/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use PHISHGUARD AI in academic work, cite this software and the original dataset."
+title: "PHISHGUARD AI: URL-only Phishing Detection Research Workspace"
+version: 1.0.0
+date-released: 2026-11-18
+type: software
+license: MIT
+repository-code: https://github.com/abbassi03/PHISHGUARD-AI
+abstract: >-
+  A defensive research application for URL-only phishing detection, classical
+  machine-learning comparison, domain-grouped evaluation and explainable triage.
+keywords:
+  - phishing detection
+  - cybersecurity
+  - machine learning
+  - URL analysis
+  - explainable AI
+references:
+  - type: dataset
+    authors:
+      - family-names: Prasad
+        given-names: Arvind
+      - family-names: Chandra
+        given-names: Shalini
+    title: "PhiUSIIL Phishing URL (Website) Dataset"
+    year: 2024
+    doi: 10.1016/j.cose.2023.103545
